@@ -146,3 +146,228 @@ header {
     z-index: -1;
     overflow: visible;
 }
+
+.titlu_calculator {
+    margin-top: 7rem;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 6rem;
+    color: var(--white);
+    text-shadow: 1px 1px 2px black, -1px -1px 2px gray;
+    margin-bottom: 1rem;
+    animation: fadeInDown 2s ease-in-out;
+}
+
+.calorieForm {
+    border: 3px solid #48376b;
+    padding: 20px;
+    width: 1000px;
+    border-radius: 20px;
+    background-color: #6f5b99;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: var(--white);
+    text-shadow: 1px 1px 2px black, -1px -1px 2px gray;
+    text-align: center;
+}
+
+.caseta {
+    font-size: 1.5rem;
+    border: 3px solid #48376b;
+    padding: 15px;
+    width: 950px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #8a77b1;
+    text-align: center;
+}
+
+button {
+    background-color: #5a358d;
+    color: white;
+    padding: 20px 50px;
+    border:  3px solid #33254e;
+    cursor: pointer;
+    border-radius: 50px;
+    text-shadow: 1px 1px 2px black, -1px -1px 2px gray;
+    font-size: large;
+}
+
+button:hover {
+    background-color: #473869;
+    text-shadow: 1px 1px 2px black, -1px -1px 2px gray;
+}
+
+#rezultat {
+    display: none;
+}
+
+#rezultat {
+    color: var(--white);
+    text-shadow: 1px 1px 2px black, -1px -1px 2px gray;
+    border-radius: 50px;
+    font-size: 2rem;
+    margin-top: 80px;
+    margin-left: 140px;
+    margin-right: 140px;
+    background-color: #6f5b99;
+    border: 3px solid #48376b;
+    padding: 30px;
+}
+
+.informatie {
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 1.5rem;
+    width: 1100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #8a77b1;
+    text-align: center;
+}
+
+.rezultat-container {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-left: 3px;
+    margin-top: 70px;
+}
+
+.rezultat-box {
+    background-color: #8a77b1; 
+    padding: 40px;
+    border-radius: 10px;
+    width: 500px;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  }
+  
+.rezultat-box h3 {
+  font-size: 1.7rem;
+  margin-bottom: 10px;
+}
+  
+.rezultat-box p {
+    font-size: 1.7rem;
+    margin: 5px 0;
+}
+
+.imc-box {
+    background-color: #8a77b1;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    width: 1000px;
+    margin-left: 50px;
+}
+
+#imc-section {
+    padding: 30px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    width: 1100px;
+    background-color: #8a77b1;
+}
+
+#imc-table {
+    width: 1046px;
+    border-collapse: collapse;
+    margin-top: 35px;
+    background-color: #836faa;
+}
+
+#imc-table th, #imc-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#imc-table tr:nth-child(even) {
+    background-color: #6f5b99;
+}
+
+#imc-table tr:hover {
+    background-color: #9a7bb8;
+}
+
+#imc-table th {
+    background-color: #48376b;
+    color: white;
+}
+
+.highlight {
+    background-color: #c8a4d6 !important;
+}
+
+#mesajeroare {
+    display: none;
+    background-color: #8a77b1; 
+    padding: 30px;
+    border-radius: 10px;
+    width: 900px;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-left: 18%;
+    margin-top: 50px;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 1px 1px 2px black, -1px -1px 2px gray;
+    border: 3px solid #48376b;
+}
+
+.logout-button {
+    --color: #6e69b8;
+    font-family: inherit;
+    font-style: var(--color);
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color 0.5s;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 20px;
+    font-weight: 500;
+    color: var(--color);
+    margin-left: 42%;
+    margin-top: 50px;
+  }
+  
+  .logout-button:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+  }
+  
+  .logout-button:hover {
+    color: #fff;
+  }
+  
+  button:before {
+    top: 100%;
+    left: 100%;
+    transition: all 0.7s;
+  }
+  
+  .logout-button:hover:before {
+    top: -30px;
+    left: -30px;
+  }
+  
+  .logout-button:active:before {
+    background: #3a0ca3;
+    transition: background 0s;
+  }

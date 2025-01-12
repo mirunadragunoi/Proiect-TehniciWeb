@@ -248,6 +248,33 @@ body {
   grid-template-columns: max-content;
 }
 
+.greeting-container {
+  position: relative;
+  top: auto; 
+  left: auto;
+  transform: none;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 800px;
+  padding: 30px;
+  background-color: var(--navbar-color); 
+  border-radius: 100px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1; 
+  animation: fadeIn 1s ease-in-out;
+  margin-top: 100px;
+  height: auto;
+  overflow: visible;
+  border: 1px solid #584b6d;
+}
+
+#greeting-time, #greeting-message {
+  color: white;
+  text-shadow: 1px 1px 2px black, -1px -1px 2px gray;
+  font-size: 1.5rem;
+}
+
 .section__blur {
   bottom: 5rem;
   right: 0;
@@ -430,6 +457,14 @@ body {
   transform: rotate(0);
 }
 
+.multipleimg p.active {
+  flex: 4;
+}
+
+.multipleimg p.active span {
+   transform: rotate(0);
+}
+
 .explore__container {
   background-color: var(--navbar-color);
   padding: 6rem 6rem;
@@ -571,6 +606,41 @@ body {
 .explore__card:hover {
   transform: translateY(-10px); 
 }
+
+.suggestion-button {
+  margin: 20px;
+  margin-top: 50px;
+  padding: 30px;
+  cursor: pointer;
+  background-color: #6e5d91;
+  color: white;
+  border-radius: 100px;
+  border: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  text-shadow: 1px 1px 2px black;
+  width: 1000px;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  margin-left: 220px;
+}
+
+.suggestion-button:hover {
+  background-color: #8a73b5;
+}
+
+.suggestion-result {
+  text-align: center;
+  margin-left: 420px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  font-size: 1.7rem;
+  background-color: #8a73b5;
+  border-radius: 10px;
+  padding: 20px auto;
+  width: 600px;
+}
+
 
 /* Responsive adjustments */
 @media (max-width: 1024px) {

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Healthy Life</title>
     <link rel="stylesheet" href="sportstyle.css">
+    <script type="text/javascript" src="sport.js" defer></script>
 </head>
 <body>
     <nav class="navbar">
@@ -59,6 +60,14 @@
               fizice, ajută și la crearea unei bune stări de spirit.
         </p>
         <a href="cardio.html" class="button">Începe astăzi</a>
+
+        <div class="interactive-section">
+          <h2>Adaugă noi activități</h2>
+          <input type="text" id="activityInput" placeholder="Introduceți activitatea dorită..." class="input-text" />
+          <button id="addElementBtn" class="button">Adaugă activitate</button>
+          <button id="clearElementsBtn" class="button">Șterge toate activitățile</button>
+          <div id="dynamicContainer" class="dynamic-container"></div>
+       </div>
     </section>
  
     <section class="categorii__sport">

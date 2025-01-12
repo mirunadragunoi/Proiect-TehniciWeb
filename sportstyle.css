@@ -171,6 +171,7 @@ body {
   color: #ffffff;
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
+
 .button {
   padding: 10px 20px;
   background-color: var(--fav-color);
@@ -179,16 +180,19 @@ body {
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
+  font-size: 1.3rem;
+  font-family: "Poppins", sans-serif;
+  margin-top: 10px;
 }
 
 .info-section {
-  position: absolute;
-  top: 122%; 
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 150%;
+  position: relative;
+  top: auto; 
+  left: auto;
+  transform: none;
+  margin: 50px auto;
+  width: 80%;
   max-width: 800px;
-  max-height: 500px;
   padding: 30px;
   background-color: var(--secondary-color); 
   border-radius: 8px;
@@ -196,20 +200,83 @@ body {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   z-index: 1; 
   animation: fadeIn 1s ease-in-out;
+  margin-top: 100px;
+  height: auto;
+  overflow: visible;
 }
 
 .info-section h2 {
   font-size: 2em;
   color: var(--fav-color);
-  
 }
+
 .info-section p {
   margin: 15px 0;
   color: var(--fav-color);
 }
 
+.interactive-section {
+  margin-top: 50px;
+}
+
+.input-text {
+  padding: 10px;
+  margin: 10px 0;
+  width: 80%;
+  font-size: 1rem;
+  border: 1px solid var(--fav-color);
+  border-radius: 5px;
+}
+
+.interactive-section .button {
+  font-size: 1.3rem;
+  font-family: "Poppins", sans-serif;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.dynamic-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px dashed var(--fav-color);
+  border-radius: 10px;
+  background-color: var(--secondary-color);
+  height: auto;
+  overflow: visible;
+}
+
+.dynamic-element {
+  padding: 10px;
+  margin: 10px 0;
+  background-color: var(--primary-color-extra-light);
+  color: var(--white);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dynamic-element span {
+  font-size: 1.2rem;
+}
+
+.dynamic-element button {
+  padding: 5px 10px;
+  background-color: var(--fav-color);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.dynamic-element button:hover {
+  background-color: var(--secondary-color-dark);
+}
+
 .categorii__sport {
-    margin-top: 20rem; 
+    margin-top: 2rem; 
     padding-top: 2rem; 
 }
 

@@ -214,8 +214,8 @@ header {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-.quote {
-    font-size: 1.5rem;
+.desen-animat {
+  font-size: 1.5rem;
     text-align: center;
     color: #ffffff;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
@@ -224,6 +224,17 @@ header {
     margin-right: 25%;
     margin-bottom: 50px;
     animation: fadeInDown 1s ease-in-out;
+}
+
+#yogaCanvas {
+  display: block;
+  border: 2px solid #ccc; /* Adaugă un contur frumos */
+  border-radius: 10px; /* Colțuri rotunjite pentru un aspect modern */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adaugă un efect de umbră */
+  width: 80%; /* Ajustează lățimea în funcție de dimensiunea paginii */
+  height: auto; /* Menține proporțiile canvas-ului */
+  max-width: 800px; /* Dimensiune maximă pentru ecrane mari */
+  margin-left: 300px;
 }
 
 /* Responsive adjustments */
